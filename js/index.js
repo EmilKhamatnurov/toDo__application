@@ -56,6 +56,13 @@ button_task.addEventListener('click', function(){
             label_for_task.classList.add("line-thr");
             return false;
         }
+        else if (this.checked == false) {
+            transfer2 = transfer.cloneNode(true);
+            task_list.appendChild(transfer2);
+            complete_list.removeChild(transfer);
+            label_for_task.classList.remove("line-thr");
+            return false;
+        }
         // Нужно реализоваться обратный функционал
         // else {
         //     transfer = task_in_list.cloneNode(true);
