@@ -49,7 +49,9 @@
     width: 100%;
 
 }
-
+.done__tasks {
+    
+}
 .hidden {
     display: none;
 }
