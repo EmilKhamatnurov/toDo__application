@@ -27,26 +27,40 @@
     padding: 20px 10px;
     background-color: rgb(255, 237, 214);
 }
+.title {
+    color: brown;
+    text-decoration: underline;
+}
+
 .tasks-input {
 }
 .tasks-input__text {
 }
 .tasks-input__button {
+    background-color: rgb(216, 234, 250);
 }
-
 .blocks {
+
 }
-.tasks-list__1 {
-    padding-left: 0;
+.title {
+    
+}
+.block {
+
+}
+.block__title {
+    margin: 0;
+    text-align: end;
+}
+.block__list {
+    margin-top: 0;
+    padding: 10px;
     list-style: none;
+    background-color: rgb(255, 221, 221);
 }
-.tasks-list__item {
+.task {
+
 }
 .application__done-tasks {
-}
-.done-list {
-    padding-left: 0;
-    list-style: none;
-}
-.done-list__item {
+
 }

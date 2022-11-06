@@ -23,24 +23,25 @@
                 <input class="tasks-input__text" type="text" id="">
                 <button class="tasks-input__button" type="submit">Добавить задачу</button>    
             </div>
+
             <div class="blocks">
-                <p class="block__title">Новые задачи</p>
-                <ul class="tasks-list__1"> 
-                    <li class="tasks-list__item">
-                        <input type="checkbox" name="Task1">
-                        <label for="Task1">Задача</label>
-                    </li>
-                </ul>
-            </div>
-            <hr>
-            <div class="application__done-tasks">
-                <p class="block__title">Решеные задачи</p>
-                <ul class="done-list">
-                    <li class="done-list__item">
-                        <input type="checkbox" name="Done_Task1">
-                        <label for="Done_Task1">Задача</label>
-                    </li>
-                </ul>
+                <p class="title">Новые задачи</p>
+                <!-- Блок задач -->
+                <div class="block">
+                    <p class="block__title">Общие задачи</p>
+                    <ul class="block__list"> 
+                        <li class="task">
+                            <input type="checkbox" name="task">
+                            <label for="task">Задача</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <hr> <!-- Линия между задачами -->
+                
+                <div class="application__done-tasks"> <!-- Решенные задачи -->
+                    <p class="title">Решенные задачи</p>
+                </div>
             </div>
         </div>
     </div>
