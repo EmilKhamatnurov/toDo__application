@@ -1,0 +1,52 @@
+.application__wrap {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.application__buttons {
+    padding: 20px 10px;
+    background-color: rgb(216, 234, 250);
+    
+
+}
+.block-buttons__list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 10px;
+}
+.block-buttons__item {
+}
+.block-buttons__button {
+}
+
+.application__tasks {
+    padding: 20px 10px;
+    background-color: rgb(255, 237, 214);
+}
+.tasks-input {
+}
+.tasks-input__text {
+}
+.tasks-input__button {
+}
+
+.blocks {
+}
+.tasks-list__1 {
+    padding-left: 0;
+    list-style: none;
+}
+.tasks-list__item {
+}
+.application__done-tasks {
+}
+.done-list {
+    padding-left: 0;
+    list-style: none;
+}
+.done-list__item {
+}

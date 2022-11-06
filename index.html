@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo Application</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- <h3 class="title">ToDo List</h3> -->
+    <div class="application__wrap">
+        <div class="application__buttons">
+            <ul class="block-buttons__list">
+                <li class="block-buttons__item"><input type="radio" name="block" id="">1</input></li>
+                <li class="block-buttons__item"><input type="radio" name="block" id="">2</input></li>
+                <li class="block-buttons__item"><input type="radio" name="block" id="">3</input></li>
+            </ul>
+        </div>
+        <div class="application__tasks">
+            <div class="tasks-input">
+                <input class="tasks-input__text" type="text" id="">
+                <button class="tasks-input__button" type="submit">Добавить задачу</button>    
+            </div>
+            <div class="blocks">
+                <p class="block__title">Новые задачи</p>
+                <ul class="tasks-list__1"> 
+                    <li class="tasks-list__item">
+                        <input type="checkbox" name="Task1">
+                        <label for="Task1">Задача</label>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="application__done-tasks">
+                <p class="block__title">Решеные задачи</p>
+                <ul class="done-list">
+                    <li class="done-list__item">
+                        <input type="checkbox" name="Done_Task1">
+                        <label for="Done_Task1">Задача</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
